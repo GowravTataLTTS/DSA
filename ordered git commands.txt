@@ -168,7 +168,7 @@
   167  git add .
   168  git stash
   169  git log
-  # after execution of command 163, the changes are done, to reflect the same in remote below is to be done
+  # after execution of command 163, the changes are done, to reflect the same in remote below is done to force push
   170  git push origin text -f
   171  ls
   172  vi README.md
