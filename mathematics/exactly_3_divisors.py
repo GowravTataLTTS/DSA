@@ -45,4 +45,4 @@ def exactly3Divisors(N):
     return len(primes)
 
 
-print(exactly3Divisors(729))
+print(exactly3Divisors(100))
