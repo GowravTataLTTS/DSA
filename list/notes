@@ -23,6 +23,7 @@ If list is sorted binary search can be used, if not linear search to be used
 
 Search is also slow for sorted.
 
+
 ------------------------------------------------------------------------------------------------
 
 How Dynamic Size Array work:
