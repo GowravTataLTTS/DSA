@@ -21,7 +21,7 @@ move all the elements by 1 position, so here the insertion time is linear, same 
 
 If list is sorted binary search can be used, if not linear search to be used
 
-Search is also slow for sorted
+Search is also slow for sorted.
 
 ------------------------------------------------------------------------------------------------
 
