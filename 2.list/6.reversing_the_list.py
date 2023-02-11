@@ -1,4 +1,4 @@
-# reversing the list using library methods
+# reversing the 2.list using library methods
 
 def reverse_list(input_list):
     return list(reversed(input_list))
