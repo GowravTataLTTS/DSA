@@ -80,7 +80,7 @@ def check_palindrome_two(string):
     return True
 
 
-# print(check_palindrome_two('y'))
+print(check_palindrome_two('malayalam'))
 
 
 def check_palindrome_recursion(string):
