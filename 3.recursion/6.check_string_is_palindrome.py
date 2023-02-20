@@ -20,16 +20,16 @@ def check_palindrome_two(string):
     return True
 
 
-print(check_palindrome_two('malayalam'))
+# print(check_palindrome_two('malayalam'))
 
 
-def check_palindrome_recursion(string):
-    i = 0
-    if string[i] == '':
-        return
-    return string[i] == check_palindrome_recursion(string[i - 1])
+def check_palindrome_three(s):
+    if len(s) == 1:
+        return True
+    if s[0] == s[-1]:
+        return check_palindrome_three(s[1:-1])
+    return False
 
 
-word = 'gowrav'
-
-print(check_palindrome_recursion(string=word))
+a = 'malayalam'
+print(check_palindrome_three(a))
