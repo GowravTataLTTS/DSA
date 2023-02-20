@@ -4,7 +4,7 @@ def fun(N):
     return 1 + fun(N / 2)
 
 
-# print(fun(N=34))
+print(fun(N=34))
 
 # this number gives the binary representation of a number
 
