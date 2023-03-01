@@ -9,4 +9,18 @@ def find_gcd_number(a, b):
     return maxer
 
 
-print(find_gcd_number(42, 60))
+# print(find_gcd_number(42, 60))
+
+
+def gcd(a, b):
+    if a == b:
+        return a
+    elif a < b:
+        return gcd(b, a)
+    else:
+        return gcd(b, a - b)
+
+
+a = 25
+b = 46
+print(gcd(a, b))
